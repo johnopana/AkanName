@@ -4,7 +4,6 @@
 
 ## Author
 John Opana
-## versioning
 
 ## Description
 
@@ -38,6 +37,9 @@ JavaSCript
 Feel free to provide your feedback and raise any matter concerning the project through;
 -johnopana2016@gmail.com
 -slack(moringa-school)John Opana
+
+## screen short
+-<img src= >
 
 ## Github page link
 -View the my project on liv application through https://github.com/johnopana/AkanName
