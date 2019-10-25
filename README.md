@@ -13,7 +13,7 @@ This is a web application that take your birthday informations and get you the d
 Input day of birth
 Input month of birth
 Input year of birth
-Ielect gender
+Select gender
 Output Akan name
 ## support system
 

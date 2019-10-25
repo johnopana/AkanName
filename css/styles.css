@@ -52,19 +52,12 @@ h1{
 #results{
     text-align: center;
 }
-.container{
-    background-color: blanchedalmond;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 8px;
-    margin-block-start: auto;
-    padding-bottom: 30px;
-    box-shadow: 2em 2em solid black;
-    border-radius: 20px;
-    display:block;
-    justify-content:center;
-}
+
 .reseach{
     text-decoration: underline;
     color: aqua;
+}
+.jumbotron{
+    border-radius: 1em;
+    background-color:whitesmoke;
 }
