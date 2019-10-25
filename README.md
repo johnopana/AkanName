@@ -26,7 +26,7 @@ Output Akan name
 4.You may open index.html to see my applications
 
 ## known Bugs
-
+A formular showing the day of birth as the result being inconsistant
 
 
 ## Technology used
