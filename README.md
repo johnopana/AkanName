@@ -3,7 +3,7 @@
 ### - A web app that that generate Akan name by filling in the forms  such as date of birth and gender status on which one was born.
 
 ## Author
-
+John Opana
 ## versioning
 
 ## Description
