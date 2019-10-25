@@ -35,6 +35,9 @@ CSS
 JavaSCript
 
 ## support and contact details
+Feel free to provide your feedback and raise any matter concerning the project through;
+-johnopana2016@gmail.com
+-slack(moringa-school)John Opana
 
 ## License
 
