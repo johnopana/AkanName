@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="css/styles.css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/ghana.png" type="img/jpg">
+</head>
+<body>
+<div class="body">
+    <div class="container">
+        <h1>The Akan Name Generator</h1>
+        <p>Hello,This is a web application that take your birthday informations and get you the day,month and year of your birth depending on your gender status and also output your Akan Name.Akan Names are derived from Ghanian culture where children are given their first Names as (a day name) which corresponds to the day of the week they ware given birth to.
+        </p>
+        <p>Finding out what your Akan name  is all about, fill in thae form below and click the submit button to see your.</p>
+        <form class="myform" onsubmit="return getAkanname ()">
+            <lebel day="day of birth">
+        Day:
+        <input class="day-input" type ="number" name="day of birth" area="DD" value="" needed>
+            </lebel>
+        <lebel month="month of birth">
+        Month:
+        <input class="month-input" type ="number" name="month of birth" area="MM" value="" needed>
+        <lebel>
+        <lebel year="month of birth">
+        Year:
+        <input class="year-input" type ="number" name="year of birth" area="YY" value="" needed>
+        </lebel>
+        <br>
+        <lebel status="gender">
+        <p>select your gender:</p>
+        <form>
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Female
+        <br></br>
+        </form>
+        <input id="get name" type="submit" name="" value="submit">
+        <br></br>
+        <h3 id=display name> <strong>Your Akan name displayed below</strong></h3>
+        <p id="results"></p>
+    </div>
+</div>
+<script src="script/script.js"></script>
+</body>
+</html>
