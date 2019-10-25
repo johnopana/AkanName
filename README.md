@@ -30,6 +30,9 @@ A formular showing the day of birth as the result being inconsistant
 
 
 ## Technology used
+HTML
+CSS
+JavaSCript
 
 ## support and contact details
 
