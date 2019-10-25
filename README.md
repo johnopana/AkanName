@@ -25,7 +25,8 @@ Output Akan name
 3.Extract the option and open
 4.You may open index.html to see my applications
 
-## Bugs
+## known Bugs
+
 
 
 ## Technology used
