@@ -19,10 +19,11 @@ h1{
     display: flex;
     justify-content: center;
 }
-.container{
-    margin:auto;
-    width:70%;
+
+#submit {
+    display:block;
 }
+
 
 #get-name{
     box-shadow: 2em 2em solid black;
@@ -44,13 +45,14 @@ h1{
     color: aqua;
 }
 .jumbotron{
-    border-radius: 1em;
+    border-radius: 0.5em;
     background-color:whitesmoke;
+    width:100%;
 }
 
 /*formating form control  */
 form{
-    width:50%;
+    width:80%;
     margin:0 auto;
 }
 input[type="number"],input[type="text"] {
