@@ -38,8 +38,8 @@ Feel free to provide your feedback and raise any matter concerning the project t
 - johnopana2016@gmail.com
 - slack(moringa-school)John Opana
 
-## screen short
-- 
+## screenshot
+![project screenshot](images/screenshot.png)
 
 ## Github page link
 - View the my project on liv application through https://github.com/johnopana/AkanName
