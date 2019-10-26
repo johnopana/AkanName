@@ -20,32 +20,32 @@
         </p>
         <p>Finding out what your Akan name  is all about, fill in thae form below and click the submit button to see your.</p>
         <form class="myform" onsubmit="return getAkanname ()">
-            <lebel day="day of birth">
+            <lebel day="day-of-birth">
         Day:
-        <input class="day-input" type ="number" name="day of birth" area="DD" value="" needed>
+        <input type ="number" name="day of birth" value="" required id="day" min="1" max="31" placeholder="DD">
             </lebel>
-        <lebel month="month of birth">
+        <lebel month="month-of-birth">
         Month:
-        <input class="month-input" type ="number" name="month of birth" area="MM" value="" needed>
+        <input class="month-input" type ="number" value="" reguired id="month" min="1" max="12" placeholder="MM">
         <lebel>
-        <lebel year="month of birth">
+        <lebel year="month-of-birth">
         Year:
-        <input class="year-input" type ="number" name="year of birth" area="YY" value="" needed>
+        <input class="year-input" type ="text" value="" regiured id="year" placeholder="YYYY">
         </lebel>
         <br>
         <lebel status="gender">
         <p>select your gender:</p>
         <form>
-            <input type="radio" name="gender" value="male"> Male<br>
-            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" id="male"> Male<br>
+            <input type="radio" name="gender" id="female"> Female
         <br></br>
         </form>
-        <input id="get name" type="submit" name="" value="submit">
+        <button id="get name" name="" value="submit">Submit</button>
         <br></br>
-        <h3 id=display name> <strong>Your Akan name displayed below</strong></h3>
+        <h3 id=display name> <strong>Your Akan name is displayed below</strong></h3>
         <p id="results"></p>
     </div>
 </div>
-<script src="script/script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

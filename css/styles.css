@@ -23,21 +23,7 @@ h1{
     margin:auto;
     width:70%;
 }
-.day-input{
-    height: 30px;
-    width: 60px;
-    box-shadow :2em 2em solid black;
-}
-.month-input{
-    height: 30px;
-    width: 60px;
-    box-shadow :2em 2em solid black;
-}
-.year-input{
-    height: 30px;
-    width: 60px;
-    box-shadow :2em 2em solid black;
-}
+
 #get-name{
     box-shadow: 2em 2em solid black;
     font-size: 20px;
@@ -60,4 +46,14 @@ h1{
 .jumbotron{
     border-radius: 1em;
     background-color:whitesmoke;
+}
+
+/*formating form control  */
+form{
+    width:50%;
+    margin:0 auto;
+}
+input[type="number"],input[type="text"] {
+    display:block;
+    width:100%;
 }
