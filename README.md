@@ -28,6 +28,7 @@ A formular showing the day of birth as the result being inconsistant
 
 ## BDD
 - This project capture the day  of the week and your Akan name  after filling the blank boxes below
+- You are required to fill in all the boxes and one of the box is skipped then on the display below the information will be "undefined"for the name and Akan  name.
 
 
 
