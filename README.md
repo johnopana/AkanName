@@ -27,6 +27,10 @@ This is a web application that take your birthday informations and get you the d
 ## known Bugs
 A formular showing the day of birth as the result being inconsistant
 
+## BDD
+- This project capture the day  of the week and your Akan name  after filling the blank boxes below
+
+
 
 ## Technology used
 - HTML

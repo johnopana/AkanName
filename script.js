@@ -14,9 +14,14 @@ submit.addEventListener("click", function display() {
     const maleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
     const femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     
-    if (male.checked) {
+    if (day<1 ||day >31) 
+    {
+    display.style.background ="green";
+    display.style.color="yello";
+    display.innerHTML =`Hellow, enter a valid date`;
+    }else if (male.checked) {
     display.innerHTML =`Hello, you ware born on a ${days[dayOfBirth]} and your Akan name is ${maleNames[dayOfBirth]}`;
     } else{
     display.innerHTML =`Hello, you ware born on a ${days[dayOfBirth]} and your Akan name is ${femaleNames[dayOfBirth]}`;
 }
-})
+});
