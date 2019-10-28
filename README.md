@@ -15,7 +15,6 @@ This is a web application that take your birthday informations and get you the d
 - Input year of birth
 - Select gender
 - Output Akan name
-## support system
 
 
 ## Installation and set up
