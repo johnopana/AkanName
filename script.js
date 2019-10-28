@@ -14,7 +14,7 @@ submit.addEventListener("click", function display() {
     const maleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
     const femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     
-    if (day<1 ||day >31)
+    if (day<1 || day >31)
     display.style.color="black;"
      else if (male.checked) {
     display.innerHTML =`Hello, you ware born on a ${days[dayOfBirth]} and your Akan name is ${maleNames[dayOfBirth]}`;
