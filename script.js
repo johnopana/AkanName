@@ -14,11 +14,17 @@ submit.addEventListener("click", function display() {
     const maleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
     const femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     
-    if (day<1 || day >31)
-    display.style.color="black;"
-     else if (male.checked) {
+    if (day<=0 || day >31) {
+    display.innerHTML="Enter valid day!";
+    display.style.color="red";
+} else if (month<=0 || month>12) {
+        display.innerHTML="Enter valid moth!";
+        display.style.color="red";
+    } else if (male.checked) {
     display.innerHTML =`Hello, you ware born on a ${days[dayOfBirth]} and your Akan name is ${maleNames[dayOfBirth]}`;
+    display.style.color="purple";
     } else{
     display.innerHTML =`Hello, you ware born on a ${days[dayOfBirth]} and your Akan name is ${femaleNames[dayOfBirth]}`;
+    display.style.color="purple";
 }
 });
