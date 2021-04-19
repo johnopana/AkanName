@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Akan Name Generator</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css" media="all">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="icon" href="images/ghana.png" type="img/jpg">
@@ -16,9 +15,11 @@
         <div class=jumbotron>
         <h1>The Akan Name Generator</h1>
     
-        <p>Hello,This is a web application that take your birthday informations and get you the day,month and year of your birth depending on your gender status and also output your Akan Name.Akan Names are derived from Ghanian culture where children are given their first Names as (a day name) which corresponds to the day of the week they ware given birth to.
+        <p class="para">Hello,This is a web application that take your birthday informations and you the day,month and year of <br>your birth depending on your <br>
+            gender status and also output your Akan Name.Akan Names are derived from Ghanian culture 
+            where children are <br>given their first Names as (a day name) which corresponds to the day of the week they ware given birth to.
         </p>
-        <p>Finding out what your Akan name  is all about, fill in the form below and click the submit button to see your.</p>
+        <p class="para">Finding out what your Akan name  is all about, fill in the form below and click the submit button to see your.</p>
         <p id="results"></p>
         <form class="myform" onsubmit="return getAkanname ()">
             <lebel day="day-of-birth">
@@ -35,7 +36,7 @@
         </lebel>
         <br>
         <lebel status="gender">
-        <p>select your gender:</p>
+        <p>Select Your Gender:</p>
         <form>
             <input type="radio" name="gender" id="male"> Male
             <input type="radio" name="gender" id="female"> Female
@@ -44,7 +45,7 @@
         <a id="submit" href="#" name="">Submit</a>
         <input type="reset">
         
-        <h3 id=display name> <strong>Your Akan name is displayed above</strong></h3>
+        <h3 id= "display" name> <strong>Your Akan name is displayed above</strong></h3>
         
     </div>
 </div>
